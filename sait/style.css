@@ -1,0 +1,126 @@
+/* Стили для body */
+body {
+    
+    background-color: #8c00ff28;
+    font-family: Arial, sans-serif;
+    color: #fa06fa;
+    margin: 0;
+    padding: 10px;
+   
+}
+
+/* Стили для header */
+header {
+    background-color: #f4f809b4;
+    color: #1606fa;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #04cdff;
+}
+
+/* Стили для main */
+main {
+    padding: 20px;
+    /* Добавим ограничение высоты, чтобы появилась возможность прокрутки */
+    max-height: calc(100vh - 160px); /* Высота экрана минус высота header, footer и padding */
+    overflow-y: auto; /* Включаем вертикальную прокрутку, если содержимое превышает размер окна */
+}
+
+/* Стили для секций */
+section {
+    margin-bottom: 20px;
+}
+
+.jpg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрируем содержимое по вертикали */
+    /* width: 800px;
+    height: 620px;  */
+    /* width: 50vw; /* 50% ширины экрана */
+    /* height: auto; */ 
+
+    max-width: 400px; /* Максимальная ширина контейнера */
+    margin: 10px auto; /* Центрируем контейнер по горизонтали */
+    opacity: 0.8; /* Уменьшение прозрачности */
+    transform: scale(0.7); /* Увеличение масштаба */
+    padding: 30px;
+
+}
+
+.jpg-container img {
+    /* max-width: 100%; */
+    width: 130vw;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(23, 253, 2, 0.486);
+}
+
+
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрируем содержимое по вертикали */
+    /* width: 600px;
+    height: 420px;  */
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: 10px auto; /* Центрируем контейнер по горизонтали */
+    
+    height: auto;
+    border-radius: 100px; 
+    box-shadow: 0 0 15px rgba(253, 2, 232, 0.486);
+
+    opacity: 0.8; /* Уменьшение прозрачности */
+    transform: scale(1.1);/*  Увеличение масштаба */
+    padding: 30px;
+
+}
+
+.mp4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрируем содержимое по вертикали */
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: 10px auto; /* Центрируем контейнер по горизонтали */
+    width: 130vw;
+    height: auto;
+    padding: 30px;
+
+}
+
+
+/* Стили для footer */
+footer {
+    background-color: #bcf001;
+    color: #ab06f7bd;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Стили для элемента, который будет отображаться внизу страницы для прокрутки до конца */
+#scrollToBottom {
+    height: 100px; /* Задаем высоту */
+    
+}

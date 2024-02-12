@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой пример сайта</title>
+    <!-- Добавляем ссылку на иконку сайта -->
+    <link rel="icon" type="image/gif" href="favicon1.gif">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы занимаемся созданием удивительных веб-сайтов!</p>
+            <a href="#contact">Свяжитесь с нами</a>
+            <div class="jpg-container">
+                <img src="example-image.jpg" alt="Пример изображения" >
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Напишите нам: example@example.com</p>
+            <div class="gif-container">
+                <img src="favicon1.gif" alt="Пример GIF-анимации" ><!-- width="400" height="280" -->
+            </div>
+            <div class="mp4-container">
+                <video controls>
+                    <source src="example-video.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        </section>
+        <!-- Добавим элемент, который будет отображаться внизу страницы для прокрутки до конца -->
+        <div id="scrollToBottom"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Мой сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
