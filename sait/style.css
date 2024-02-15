@@ -82,41 +82,50 @@ section {
     align-items: center; /* Центрируем содержимое по вертикали */
     /* width: 600px;
     height: 420px;  */
-    max-width: 600px; /* Максимальная ширина контейнера */
+    max-width: 100vw; /* Максимальная ширина контейнера */
     margin: 10px auto; /* Центрируем контейнер по горизонтали */
     
     height: auto;
-    border-radius: 100px; 
+    border-radius: 100vw; 
     box-shadow: 0 0 15px rgba(253, 2, 232, 0.486);
 
     opacity: 0.8; /* Уменьшение прозрачности */
-    transform: scale(1.1);/*  Увеличение масштаба */
+    /* transform: scale(1.1); Увеличение масштаба */
     padding: 30px;
+    
 
 }
 
 .mp4-container {
     display: flex;
     justify-content: center;
-    align-items: center; /* Центрируем содержимое по вертикали */
-    max-width: 600px; /* Максимальная ширина контейнера */
-    margin: 10px auto; /* Центрируем контейнер по горизонтали */
+    align-items: center;
+    max-width: 90%; /* Максимальная ширина контейнера (например, 90% от ширины экрана) */
+    margin: 10px -15px auto; /* Центрируем контейнер по горизонтали */
+    padding: 30px;
+    height: auto; /* Высота автоматически рассчитывается */
     width: 130vw;
     height: auto;
-    padding: 30px;
-
 }
+
+
+
 
 
 /* Стили для footer */
 footer {
     background-color: #bcf001;
     color: #ab06f7bd;
-    padding: 10px 20px;
     position: fixed;
+    text-align: center; 
+    margin: 0px;
+    padding: 0px 5vw;
+    /* width: 130vw;
+    height: auto; */
+
     bottom: 0;
-    width: 100%;
-    text-align: center;
+    width: 85vw;
+    
 }
 
 /* Стили для элемента, который будет отображаться внизу страницы для прокрутки до конца */

@@ -1,0 +1,54 @@
+/* Стили для body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Стили для main */
+main {
+    padding: 20px;
+}
+
+/* Стили для секций */
+section {
+    margin-bottom: 20px;
+}
+
+/* Стили для footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

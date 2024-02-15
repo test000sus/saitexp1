@@ -1,0 +1,10 @@
+    <div class="mp4-container">
+                <!-- <a href="#" id="video-link">Нажмите, чтобы воспроизвести видео</a> -->
+                <video controls>
+                    <!-- <source src="https://youtu.be/O6jjb2w5das?si=PEmW2ikkB2VlgKd4" type="video/mp4"> -->
+                    <!-- <a href="https://www.youtube.com/watch?v=O6jjb2w5das&autoplay=1" target="_blank">Нажмите, чтобы воспроизвести видео</a> -->
+                    <iframe  src="https://www.youtube.com/watch?v=O6jjb2w5das&autoplay=1" frameborder="0" allowfullscreen></iframe>
+<!-- width="560" height="315" -->
+                    Ваш браузер не поддерживает видео.
+                </video>
+    </div>
